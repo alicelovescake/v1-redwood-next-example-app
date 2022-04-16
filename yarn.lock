@@ -14,7 +14,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:3.5.10":
+"@apollo/client@npm:3.5.10, @apollo/client@npm:^3.5.10":
   version: 3.5.10
   resolution: "@apollo/client@npm:3.5.10"
   dependencies:
@@ -6171,6 +6171,18 @@ __metadata:
     "@typescript-eslint/types": 5.16.0
     eslint-visitor-keys: ^3.0.0
   checksum: b6b26ae23fef6978323dc7ef25cd1eedad3f9490d8b5ecf4aaecdd29997810aae01479b4246e3d590fff58ea54491c72443356314564dc701e36ef91f08f5b97
+  languageName: node
+  linkType: hard
+
+"@urql/core@npm:^2.4.3":
+  version: 2.4.4
+  resolution: "@urql/core@npm:2.4.4"
+  dependencies:
+    "@graphql-typed-document-node/core": ^3.1.1
+    wonka: ^4.0.14
+  peerDependencies:
+    graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+  checksum: 1cf6f2fbd1269efcb46f690f9e33872fac89e13a10abffec908bfbaaf69464da8752be9c1e21f03caadce84b517b923f3c94d2acdbdea7acfe563166f15803ad
   languageName: node
   linkType: hard
 
@@ -17447,22 +17459,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@workspace:next":
-  version: 0.0.0-use.local
-  resolution: "next@workspace:next"
-  dependencies:
-    "@types/node": 17.0.24
-    "@types/react": 18.0.5
-    "@types/react-dom": 18.0.1
-    eslint: 8.13.0
-    eslint-config-next: 12.1.5
-    next: 12.1.5
-    react: 18.0.0
-    react-dom: 18.0.0
-    typescript: 4.6.3
-  languageName: unknown
-  linkType: soft
-
 "no-case@npm:^3.0.4":
   version: 3.0.4
   resolution: "no-case@npm:3.0.4"
@@ -23124,6 +23120,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"urql@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "urql@npm:2.2.0"
+  dependencies:
+    "@urql/core": ^2.4.3
+    wonka: ^4.0.14
+  peerDependencies:
+    graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+    react: ">= 16.8.0"
+  checksum: e485d831e92576a6a7febd8d24b6b794bc202e0c80ae2c559477b77aa0b5a17cd3357c9f0418ae9bd61777eb8a757ebdf52f8e405da25a4b38b09aa456d3229f
+  languageName: node
+  linkType: hard
+
 "use-composed-ref@npm:^1.0.0":
   version: 1.2.1
   resolution: "use-composed-ref@npm:1.2.1"
@@ -23479,6 +23488,24 @@ __metadata:
   checksum: 70ed6b5708e14afa2ab699221ea197d7c68ec0c8274bbe0181aecc5ba636ca27cbd383d2049f0eb9d529e738f5c088825502b317f3df24d18a278e4cc9a10e8b
   languageName: node
   linkType: hard
+
+"web@workspace:web":
+  version: 0.0.0-use.local
+  resolution: "web@workspace:web"
+  dependencies:
+    "@apollo/client": ^3.5.10
+    "@types/node": 17.0.24
+    "@types/react": 18.0.5
+    "@types/react-dom": 18.0.1
+    eslint: 8.13.0
+    eslint-config-next: 12.1.5
+    next: 12.1.5
+    react: 18.0.0
+    react-dom: 18.0.0
+    typescript: 4.6.3
+    urql: ^2.2.0
+  languageName: unknown
+  linkType: soft
 
 "webidl-conversions@npm:^3.0.0":
   version: 3.0.1
@@ -23989,6 +24016,13 @@ __metadata:
   version: 2.0.0
   resolution: "wildcard@npm:2.0.0"
   checksum: 4e22a45f4fa7f0f0d3e11860ee9ce9225246d41af6ec507e6a7d64c2692afb40d695b92c8f801deda8d3536007c2ec07981079fd0c8bb38b8521de072b33ab7a
+  languageName: node
+  linkType: hard
+
+"wonka@npm:^4.0.14":
+  version: 4.0.15
+  resolution: "wonka@npm:4.0.15"
+  checksum: b93f15339c0de08259439d3c5bd3a03ca44196fbd7553cbe13c844e7b3ff2eb31b5dc4a0b2e0c3c2119160e65fc471d8366f4559744b53ab52763eb463b6793b
   languageName: node
   linkType: hard
 
