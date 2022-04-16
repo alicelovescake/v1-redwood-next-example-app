@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "./",
+    "rootDirs": [
+      "web",
+      "../api/src",
+      "../.redwood/types/mirror/api/src"
+    ],
+    "paths": {
+      "web/*": [
+        "./web/*",
+        "../api/src/*",
+        "../.redwood/types/mirror/api/src/*"
+      ],
+      "types/*": ["./types/*", "../types/*"],
+    }
+  },
+  "typeRoots": ["../node_modules/@types", "./node_modules/@types"],
+  "include": [
+    "**/*.ts", "**/*.tsx",
+    "../.redwood/types/includes/all-*",
+    "../types", "next-env.d.ts",
+  ],
+  "exclude": ["node_modules"]
+}
