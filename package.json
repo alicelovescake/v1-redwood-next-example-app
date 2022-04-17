@@ -1,5 +1,6 @@
 {
   "private": true,
+<<<<<<< Updated upstream
   "workspaces": {
     "packages": [
       "api",
@@ -9,6 +10,15 @@
   },
   "scripts": {
     "dev": "concurrently --kill-others \"npx next dev ./web -p 8910\" \"yarn rw dev api\""
+=======
+  "workspaces": [
+    "api",
+    "next-app",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently --kill-others \"npx next dev ./next-app -p 3000\" \"yarn rw dev\""
+>>>>>>> Stashed changes
   },
   "devDependencies": {
     "@redwoodjs/core": "1.0.2",

@@ -3947,6 +3947,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@redwoodjs/forms@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@redwoodjs/forms@npm:1.0.2"
+  dependencies:
+    "@babel/runtime-corejs3": 7.16.7
+    pascalcase: 1.0.0
+    react-hook-form: 7.28.1
+  peerDependencies:
+    graphql: 16.3.0
+    react: 17.0.2
+  checksum: 43bce628f23bbe83092605356f2f0a1b1d6e1fd76a801fd69bd8f79ff5bd2647dd0e60767ec24436ac763c99ae74f10dd1315ca063df177a30600e68c45922b8
+  languageName: node
+  linkType: hard
+
 "@redwoodjs/graphql-server@npm:1.0.2":
   version: 1.0.2
   resolution: "@redwoodjs/graphql-server@npm:1.0.2"
@@ -17395,6 +17409,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"next-app@workspace:next-app":
+  version: 0.0.0-use.local
+  resolution: "next-app@workspace:next-app"
+  dependencies:
+    "@types/node": 17.0.24
+    "@types/react": 18.0.5
+    "@types/react-dom": 18.0.1
+    eslint: 8.13.0
+    eslint-config-next: 12.1.5
+    next: 12.1.5
+    react: 17.0.2
+    react-dom: 17.0.2
+    typescript: 4.6.3
+    urql: ^2.2.0
+  languageName: unknown
+  linkType: soft
+
 "next@npm:12.1.5":
   version: 12.1.5
   resolution: "next@npm:12.1.5"
@@ -19389,7 +19420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.0, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+"prop-types@npm:15.8.1, prop-types@npm:^15.6.0, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -19706,15 +19737,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.0.0":
-  version: 18.0.0
-  resolution: "react-dom@npm:18.0.0"
+"react-dom@npm:17.0.2":
+  version: 17.0.2
+  resolution: "react-dom@npm:17.0.2"
   dependencies:
     loose-envify: ^1.1.0
-    scheduler: ^0.21.0
+    object-assign: ^4.1.1
+    scheduler: ^0.20.2
   peerDependencies:
-    react: ^18.0.0
-  checksum: 78aa393ab4ae35f7266ba5cd761ebd35cab8375f63051bda2bb97a27be2622dbd661b24b32b8e55f9365aa027e732251e7d0d754c755f8efb6bd38a72ba03df8
+    react: 17.0.2
+  checksum: 51abbcb72450fe527ebf978c3bc989ba266630faaa53f47a2fae5392369729e8de62b2e4683598cbe651ea7873cd34ec7d5127e2f50bf4bfe6bd0c3ad9bddcb0
   languageName: node
   linkType: hard
 
@@ -19767,6 +19799,15 @@ __metadata:
     react: ^16.6.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
   checksum: 8f3e6d26beff61d2ed18f7b41561df3e4d83a7582914c7196aa65158c7f3cce939276547d7a0b8987952d9d44131406df74efba02d1f8fa8a3940b49e6ced70b
+  languageName: node
+  linkType: hard
+
+"react-hook-form@npm:7.28.1":
+  version: 7.28.1
+  resolution: "react-hook-form@npm:7.28.1"
+  peerDependencies:
+    react: ^16.8.0 || ^17
+  checksum: 03b6f2352ca3c1f7138722ac6b453724bf455f41ea5b101264afe65b6cdd5d3b94808be230654ea59761fe5760e4d7f98117cf766f5c34fd31abf82c87a051e7
   languageName: node
   linkType: hard
 
@@ -19894,12 +19935,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.0.0":
-  version: 18.0.0
-  resolution: "react@npm:18.0.0"
+"react@npm:17.0.2":
+  version: 17.0.2
+  resolution: "react@npm:17.0.2"
   dependencies:
     loose-envify: ^1.1.0
-  checksum: cf55bc7b4315f54321d04cb0b69241c4973a5182d679551b3e6c3f57b312a4fdeac05038ca9502d48ea4d040d7550b0b7f07b3872a19589a5995ee899cc19d2b
+    object-assign: ^4.1.1
+  checksum: 07ae8959acf1596f0550685102fd6097d461a54a4fd46a50f88a0cd7daaa97fdd6415de1dcb4bfe0da6aa43221a6746ce380410fa848acc60f8ac41f6649c148
   languageName: node
   linkType: hard
 
@@ -20672,12 +20714,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "scheduler@npm:0.21.0"
+"scheduler@npm:^0.20.2":
+  version: 0.20.2
+  resolution: "scheduler@npm:0.20.2"
   dependencies:
     loose-envify: ^1.1.0
-  checksum: 083a9a0c83f4923f7f5bb28d8bcf13cff42c90f4303bc187166520fcfc576c97e946d426c707d5a9c0aa0a655819605dd0c741467c626824bbf191251c126f1b
+    object-assign: ^4.1.1
+  checksum: b0982e4b0f34f4ffa4f2f486161c0fd9ce9b88680b045dccbf250eb1aa4fd27413570645455187a83535e2370f5c667a251045547765408492bd883cbe95fcdb
   languageName: node
   linkType: hard
 
@@ -23493,6 +23536,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
+<<<<<<< Updated upstream
     "@apollo/client": ^3.5.10
     "@types/node": 17.0.24
     "@types/react": 18.0.5
@@ -23504,6 +23548,14 @@ __metadata:
     react-dom: 18.0.0
     typescript: 4.6.3
     urql: ^2.2.0
+=======
+    "@redwoodjs/forms": 1.0.2
+    "@redwoodjs/router": 1.0.2
+    "@redwoodjs/web": 1.0.2
+    prop-types: 15.8.1
+    react: 17.0.2
+    react-dom: 17.0.2
+>>>>>>> Stashed changes
   languageName: unknown
   linkType: soft
 
